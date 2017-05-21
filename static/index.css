@@ -1,0 +1,217 @@
+body {
+    font-family: "Microsoft Yahei", arial, tahoma, verdana;;
+}
+
+.deltacat-top {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #2D3E50;
+}
+
+.deltacat-top .link {
+    float: right;
+}
+
+.deltacat-top a {
+    color: white;
+}
+
+.deltacat-top a:hover {
+    text-decoration: none;
+}
+
+.deltacat-nav {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.deltacat-nav a {
+    font-size: 140%;
+    color: black;
+}
+
+.deltacat-nav a:hover {
+    font-weight: bold;
+}
+
+.deltacat-nav .logo img {
+    height: 50px;
+}
+
+.deltacat-nav .logo {
+    margin-right: 20px;
+}
+
+.download {
+    background-color: #2D3E50;
+    height: 400px;
+    text-align: center;
+}
+
+.download .download-title {
+    font-family: SimHei, Arial;
+    font-size: 250%;
+    color: white;
+    margin: 50px 0 100px 0;
+}
+
+.download-link {
+    margin: 50px 0;
+}
+
+.download .download-link button {
+    font-size: 160%;
+    margin-right: 30px;
+    padding: 15px 30px 15px 30px;
+}
+
+.video {
+    height: 400px;
+    text-align: center;
+}
+
+.video .video-title {
+    margin: 50px 0;
+    font-family: SimHei, Arial;
+    font-size: 250%;
+}
+
+.video .video-link {
+    margin: 50px 0;
+}
+
+.video ul, .video li {
+    list-style: none;
+    float: left;
+}
+
+.video ul {
+    width: 100%;
+    padding-left: 0;
+}
+
+.video li {
+    width: 25%;
+}
+
+.video li div {
+    max-width: 100%;
+    margin-top: 10px;
+}
+
+.video li a:hover {
+    text-decoration: none;
+}
+
+.history {
+    text-align: center;
+
+}
+
+.history .history-title {
+    margin: 50px 0;
+    font-family: SimHei, Arial;
+    font-size: 250%;
+}
+
+.history img {
+    width: 100%;
+    margin-bottom: 40px;
+}
+
+.strategy {
+    text-align: center;
+    background-color: #2D3E50;
+    color: white;
+    height: 400px;
+}
+
+.strategy .strategy-title {
+    margin: 50px 0;
+    font-family: SimHei, Arial;
+    font-size: 250%;
+}
+
+.strategy-link {
+    margin-bottom: 50px;
+}
+
+.strategy-link .month {
+    font-size: 150%;
+    color: lightblue;
+}
+
+.strategy-link .detail {
+    font-size: 120%;
+    line-height: 1.5;
+}
+
+
+
+#toTop {
+    display: none;
+    text-decoration: none;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    overflow: hidden;
+    width: 48px;
+    height: 48px;
+    border: none;
+    text-indent: 100%;
+    background: url("/static/index/totop.png") no-repeat 0px 0px;
+}
+
+.help {
+    height: 400px;
+    text-align: center;
+    background-color: #2D3E50;
+    color: white;
+}
+
+.help .help-title {
+    margin: 50px 0 40px 0;
+    font-family: SimHei, Arial;
+    font-size: 250%;
+}
+
+.help-link{
+    margin-bottom: 30px;
+}
+
+.help-link ul {
+    list-style: none;
+    float: left;
+    width: 100%;
+}
+
+.help-link li {
+    float: left;
+    width: 50%;
+}
+
+.help-link img{
+    max-width: 100%;
+    height: auto;
+}
+
+.help-link .platform, .help-link .warning{
+    float: right;
+    width: 60%;
+    padding-top: 30px;
+    text-align: left;
+}
+
+div.footer {
+    height: 100px;
+    line-height: 100px;
+    font-weight: bold;
+    font-size: 120%;
+    /*background-color: #2D3E50;*/
+    /*color: white;*/
+    text-align: center;
+    /*position: fixed;*/
+    /*bottom: 0;*/
+    width: 100%;
+}
+
